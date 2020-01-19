@@ -1,0 +1,15 @@
+# Opgave 5.3 
+# Vraag de gebruiker om drie getallen, en toon dan de grootste, de kleinste,
+# en hun gemiddelde afgerond op twee decimalen
+getal1 = input( "Vul het eerste getal in: " )
+getal1 = float( getal1 )
+getal2 = input( "Vul het tweede getal in: " )
+getal2 = float( getal2 )
+getal3 = input( "Vul het derde getal in: " )
+getal3 = float( getal3 )
+hoogste = max( getal1, getal2, getal3 ) 
+laagste = min( getal1, getal2, getal3 )
+gemid = ( getal1 + getal2 + getal3 ) /3
+print( "Het hoogste getal is {:>7.2f}" .format( hoogste ) )
+print( "Het laagste getal is {:>7.2f}" .format( laagste ) )
+print( "Het gemiddelde is {:>10.2f}" .format( gemid ) )
