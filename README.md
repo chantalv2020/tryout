@@ -1,2 +1,2 @@
 # tryout
-Opdrachten om Python te oefenen. Beginnersniveau.
+Opdrachten uit Pythonboek van Pieter Spronck om Python te oefenen. Beginnersniveau.
