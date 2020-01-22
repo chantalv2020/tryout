@@ -1,0 +1,20 @@
+# Opgave 6.3 
+# Vraag de gebruiker om een string. Druk af hoeveel verschillende klinkers er in de string zitten.
+# De hoofdletter versie van een klinker wordt beschouwd als gelijk aan de kleine-letter versie. 
+# Probeer de uitvoer een beetje netjes te maken (bijvoorbeeld, het is lelijk om te zeggen: 
+# “Er zitten 1 verschillende klinkers in de string”). Voorbeeld: als de gebruiker als string 
+# “De Heilige Handgranaat van Antioch” ingeeft, zegt het programma dat er 4 verschillende klinkers 
+# in de string zitten.
+zin = input( "Type een zin in, dan berekent deze code het aantal klinkers in de zin: " )
+k = 0
+if ( "a" in zin ):
+    k = k + 1
+if ( "e" in zin ):
+    k = k + 1
+if ( "i" in zin ):
+    k = k + 1
+if ( "o" in zin ):
+    k = k + 1
+if ( "u" in zin ):
+    k = k + 1
+print( "Er zitten", k, "klinkers in jouw zin." )
